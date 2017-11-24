@@ -45,7 +45,7 @@ def index ():
 
 @app.route("/", methods=['POST'])
 def encrypt ():
-  text=form.format("encrypt")
+  text=form.format("rot")
   
   return '<h1>' + text + '</h1>'
 
